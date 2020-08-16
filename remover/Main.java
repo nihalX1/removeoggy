@@ -13,6 +13,12 @@ public class Main {
         }
         return;
     }
+    public static boolean test(ArrayList<String> names) {
+        //List<String> oggys = names.stream().filter(it -> it.contains("oggy")).collect(Collectors.toList());
+        //return oggys.size() == 0;
+        return true;
+    }
+    
     public static boolean oggyIsRemoved(ArrayList<String> names) {
         List<String> oggys = names.stream().filter(it -> it.contains("oggy")).collect(Collectors.toList());
         return oggys.size() == 0;
