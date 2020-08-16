@@ -13,7 +13,10 @@ public class Main {
         }
         return;
     }
-    public static boolean testremove1(ArrayList<String> names) {
+    public static boolean testremove2(ArrayList<String> names) {
+        return false;
+    }
+    public static boolean testremove1(ArrayList<String> name) {
         return false;
     }
     public static boolean test(ArrayList<String> names) {
